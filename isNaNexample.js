@@ -1,12 +1,12 @@
 //Outputs Your number is not really a number man
 var isEven = function(number) {
-    if (number % 2 == 0) {
+    if (isNaN(number)) {
+        return ("Not a number");
+    } else if (number % 2 == 0) {
         return true;
-    } else if (isNaN(number)) {
-        return ("Your number is not really a number man.");
     } else {
-        return false;
-    };
+        return false
+    }
 };
 
-console.log(isEven(21));
+console.log(isEven(40));

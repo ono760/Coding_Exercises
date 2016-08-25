@@ -33,3 +33,16 @@ var singleCar = function(car) {
 };
 
 console.log(cars.filter(domesticManufacturer).map(singleCar)[0]) // Ford
+
+
+//Example of map
+function squareAndDouble(arr) {
+    var tempArr = arr.map(function(el) {
+        return el * el;
+    });
+    return tempArr.map(function(el) {
+        return 2 * el;
+    });
+}
+var arr = [2,4,5,6,7]
+console.log(squareAndDouble(arr))

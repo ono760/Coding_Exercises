@@ -6,28 +6,27 @@
 
 function accum(string) {
     var outputString = "";
-    var characters = string.split('');
-    characters.forEach(function(char, index){
-    	for(var j = 0; j < index + 1; j++){
-    		if(j > 0){
-    			var letter = characters[index].toLowerCase();
-    			outputString +=letter;
-    		}
-    		else{
-    			var letter = characters[index].toUpperCase();
-    		    outputString +=letter;
-    		};
-    	};
-
-    	if(index < string.length -1){
-    		outputString += '-';
-    	};
+    var chars = string.split('');
+    chars.forEach(function(char, index) {
+        for (var j = 0; j < index + 1; j++) {
+            if (j > 0) {
+                var letter = chars[index].toLowerCase();
+                outputString += letter;
+            } else {
+                var letter = chars[index].toUpperCase();
+                outputString += letter;
+            };
+        };
+        
+        if (index < string.length - 1) {
+            outputString += '-';
+        };
     });
 
     return outputString;
 
 };
 
-console.log(accum("abcd"));// --> "A-Bb-Ccc-Dddd"
-console.log(accum("RqaEzty"))// --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-console.log(accum("cwAt"));// --> "C-Ww-Aaa-Tttt"
+console.log(accum("abcd")); // --> "A-Bb-Ccc-Dddd"
+console.log(accum("RqaEzty")) // --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+console.log(accum("cwAt")); // --> "C-Ww-Aaa-Tttt"

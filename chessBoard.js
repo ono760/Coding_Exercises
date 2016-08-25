@@ -18,7 +18,7 @@ Passing this string to console.log should show something like this:
 */
 
 var sizeOfBoard = 8;
-var chessBoard = " ";
+var chessBoard = "";
 
 for (var y = 0; y < sizeOfBoard; y++) {
     for (var x = 0; x < sizeOfBoard; x++) {

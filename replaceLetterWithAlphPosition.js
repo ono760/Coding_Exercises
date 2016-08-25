@@ -12,7 +12,6 @@ function alphabetPosition(string){
 	var letterPositions = "";
 	for(var i =0; i < string.length; i++){
 		var letterCode = string.toUpperCase().charCodeAt(i);
-		console.log(letterCode);
 		 if (letterCode > 64 && letterCode < 91) { //based on ASCII table.  64-91 inclusive.  
             letterPositions += (letterCode - 64) + " "; //if you substract 64, will give you the first letter. 
         };

@@ -14,19 +14,15 @@
  */
 
 function fibonacci(number) {
-
     var fibNumber;
-
+    
     if (number <= 1) {
         return 1;
     };
-
     var prevDigit = fibonacci(number - 1);
     var otherPrevDigit = fibonacci(number - 2);
     fibNumber = prevDigit + otherPrevDigit;
-
     return fibNumber;
-
 };
 
 console.log(fibonacci(6)) //13

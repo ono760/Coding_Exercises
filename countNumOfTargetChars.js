@@ -2,14 +2,10 @@
  */
 
 var countChar = function(string, charToCount) {
-
     var numberOfChars = 0;
-
     i = 0;
     while (i < string.length) {
-
         if (string[i] === charToCount) {
-
             numberOfChars += 1;
         };
 

@@ -21,7 +21,9 @@ Cat.prototype.pet = function() {
     this.loneliness -= 5;
 };
 
+
 var fluffy = new Cat();
+
 fluffy.feed(5);
 fluffy.nap(6);
 fluffy.pet();

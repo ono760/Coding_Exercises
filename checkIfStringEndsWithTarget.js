@@ -19,8 +19,8 @@ function confirmEnding(string, target) {
 
 //Another solution:
 function confirmEnding(str, target) {
-  var lastWord = str.split(' ').pop();
-  return lastWord.slice(-target.length) === target;
+    var lastWord = str.split(' ').pop();
+    return lastWord.slice(-target.length) === target;
 };
 
 

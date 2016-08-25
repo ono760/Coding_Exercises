@@ -16,6 +16,8 @@ function flatten(array){
 				var innerValue = outerValue[innerIndex];
 				flattenedArray.push(innerValue);
 			};
+			//or
+			//flattenedArray = flattenedArray.concat(outerValue)
 		}
 		else{
 			flattenedArray.push(outerValue);

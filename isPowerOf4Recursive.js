@@ -5,6 +5,7 @@
 
 function powerOf4R(x, checked) {
     if (isNaN(x)) return false;
+
     if (x < 4) {
         if (!checked) {
             return false;

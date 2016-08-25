@@ -44,10 +44,10 @@ citiesVisited = ['Mexico City', 'Johannesburg', 'Stockholm', 'Osaka', 'Saint Pet
 citiesOffered = ['Stockholm', 'Paris', 'Melbourne', 'Madrid'];
 
 function conferencePicker(citiesVisited, citiesOffered) {
-	if(citiesVisited.length === 0){
-		return citiesOffered[0];
-	};
-	
+    if (citiesVisited.length === 0) {
+        return citiesOffered[0];
+    };
+
     for (var city in citiesOffered) {
         var currentCity = citiesOffered[city];
         if (citiesVisited.indexOf(currentCity) === -1) {
