@@ -8,5 +8,6 @@ function dashInsert(string) {
     }
     var joinedArray = arr.join('');
     return joinedArray.slice(0, joinedArray.length - 1);
-}
+};
+
 console.log(dashInsert("454793"));

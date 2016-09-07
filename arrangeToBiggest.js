@@ -1,4 +1,3 @@
-// I LIKE BIG NUMS AND I CANNOT LIE
 // Write:
 // function biggest(nums)
 // that given an array of numbers >= 0, will arrange them 
@@ -19,11 +18,11 @@ function biggest(nums) {
         if (currentBig > nums[i + 1]) {
             currentBig = currentBig;
             orderedNums.push(currentBig)
-        }
-        // else{
-        // 	currentBig = nums[i];
-        // 	orderedNums.push(currentBig);
-        // }
+        } else {
+            currentBig = nums[i];
+            orderedNums.push(currentBig);
+        };
+
 
     }; //end of for loop
 

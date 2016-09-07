@@ -35,6 +35,3 @@ function convertRomanNumerals(numerals) {
 
 console.log(convertRomanNumerals("ivxlhhgfddcccc"))
 
-module.exports = {
-    convertRomanNumerals: convertRomanNumerals
-}

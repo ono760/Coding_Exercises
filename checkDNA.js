@@ -111,9 +111,7 @@ console.log(checkDNA(seq3, seq4));
 //     // replace all characters in the second sequence with their matching ones,
 //     // then reverse the sequence
 //     seq2 = Array.prototype.map.call(seq2, current => pairs[current]).reverse().join('');
-    
+
 //     // check if the longer sequence contains the shorter one
 //     return (seq1.length >= seq2.length) ? seq1.indexOf(seq2) !== -1 : seq2.indexOf(seq1) !== -1;
 // }
-
-

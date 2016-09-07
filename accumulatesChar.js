@@ -3,7 +3,6 @@
 // accum("RqaEzty") --> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
 // accum("cwAt") --> "C-Ww-Aaa-Tttt"
 
-
 function accum(string) {
     var outputString = "";
     var chars = string.split('');
@@ -17,7 +16,7 @@ function accum(string) {
                 outputString += letter;
             };
         };
-        
+
         if (index < string.length - 1) {
             outputString += '-';
         };

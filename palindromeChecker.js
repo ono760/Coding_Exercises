@@ -19,3 +19,9 @@ function isPalindrome(string) {
 };
 
 console.log(isPalindrome("onno"));
+
+
+            //uses slice to keep checking for remaining characters in string. closing in. Think "onoono"
+     //once we have compared first o vs last o, we now close in and compare next characters, in this case n. 
+    //basically calling the recursion with our new, updated shorter string. 
+    //everytime we call, we get closer to the case base. Think of recursions like shrinking/moving towards case base. 

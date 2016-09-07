@@ -1,4 +1,4 @@
-// write a function declaration called addManyNumbers that takes in any number of parameters
+// Write a function declaration called addManyNumbers that takes in any number of parameters
 // and returns the sum of the input parameters
 
 function addManyNumbers() {

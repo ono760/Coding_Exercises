@@ -7,3 +7,5 @@ function equal(a, b) {
 console.log(equal(100,100)) //true
 console.log(equal(2,4))//false
 console.log(equal(4,2));
+console.log(equal(-5,-5))
+console.log(equal(-100,150))

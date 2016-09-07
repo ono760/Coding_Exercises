@@ -13,11 +13,10 @@ function inAscOrder(arr) {
             return false;
         };
     };
-    
+
     return true;
 };
 
 
 console.log(inAscOrder([1, 2, 3, 34])); // -> returns true;
 console.log(inAscOrder([1, 2, 34, 3])); // -> returns false;
-
