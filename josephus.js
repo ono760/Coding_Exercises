@@ -1,3 +1,5 @@
+//A JS implementation of the Josephus permutation.  
+
 function josephus(counter, people) {
     var idxArr = new Array(people.length).fill(0).map((_, i) => {
         return i;

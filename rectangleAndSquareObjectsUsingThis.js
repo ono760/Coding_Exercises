@@ -1,3 +1,5 @@
+//Uses 'this' to access object properties and calculate.
+
 var rectangle = new Object();
 rectangle.height = 3;
 rectangle.width = 4;

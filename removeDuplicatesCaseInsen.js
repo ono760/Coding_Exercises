@@ -1,4 +1,4 @@
-//CI for case insensitive
+//CI for case insensitive. Removes duplicates taking CI into account.  
 function removeDupesCI(string) {
 
     var lowerCaseString = string.toLowerCase();

@@ -1,3 +1,5 @@
+//Basic calculator.
+
 function Calculator() {};
 
 Calculator.prototype.evaluate = function(num1, num2, op) {

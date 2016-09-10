@@ -1,5 +1,4 @@
-//
-needs additional tests
+//needs additional tests
 // TDD development by writing your own tests!
 
 // In a simple memory game (http://en.wikipedia.org/wiki/Concentration_(game)) 

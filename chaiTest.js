@@ -1,3 +1,5 @@
+//An example of Chai Tests. 
+
 var expect = require('chai').expect;
 var convertRomanNumerals = require('../convertRomanNumerals').convertRomanNumerals;
 console.log(convertRomanNumerals);

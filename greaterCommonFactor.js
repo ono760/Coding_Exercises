@@ -1,3 +1,5 @@
+//This functions finds the greatest common divisor of two numbers.
+
 var gcd = function(a, b) {
     if (!b) {
         return a;

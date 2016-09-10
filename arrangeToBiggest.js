@@ -23,7 +23,6 @@ function biggest(nums) {
             orderedNums.push(currentBig);
         };
 
-
     }; //end of for loop
 
     return orderedNums;

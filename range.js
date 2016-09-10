@@ -1,6 +1,8 @@
+//This function finds the range between two numbers. 
+
+
 function range(start, stop, step) {
     if (typeof stop == 'undefined') {
-        // one param defined
         stop = start;
         start = 0;
     }
@@ -20,6 +22,27 @@ function range(start, stop, step) {
 
     return result;
 };
+
+//Another solution:
+
+// function range(start, end, step) {
+//     var myArray = [];
+//     if (start < 0) {
+//         return;
+//     } else {
+//         if (step < 0) {
+//             for (var i = start; i >= end; i += step) {
+//                 myArray.push(i);
+//             }
+//         } else {
+
+//             for (var i = start; i <= end; i += step) {
+//                 myArray.push(i);
+//             }
+//         }
+//     }
+//     return myArray;
+// }
 
 console.log(range(10, 0, -1))
 console.log(range(6))

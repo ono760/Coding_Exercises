@@ -1,3 +1,5 @@
+//This function finds the number of times that a character appears in a string. 
+
 function chars(s) {
 
     var total = {};
