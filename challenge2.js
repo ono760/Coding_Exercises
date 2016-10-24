@@ -62,4 +62,4 @@ function paginate(num, results) {
     return pageResults;
 };
 
-paginate(num, results)
+console.log(paginate(num, results))

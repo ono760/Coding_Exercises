@@ -10,8 +10,6 @@
 function isPalindrome(string) {
 
     var newString = string.toLowerCase().split(" ").join("").split(",").join("").split(".").join("");
-    console.log(newString)
-
     if (newString.length <= 1) {
         return true;
     };
@@ -20,9 +18,8 @@ function isPalindrome(string) {
         return false;
     };
 
-    return isPalindrome(newString.slice(1, newString.length - 1));
+    return isPalindrome(newString.slice(1, (newString.length - 1)));
 };
-
 
 
 // function isPalindrome(string) {
